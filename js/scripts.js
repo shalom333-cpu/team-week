@@ -101,17 +101,17 @@ for (let i = 0; i < forms.length; i++) {
         var checkOut = new Date(formData.get("check_out")); 
         var price = formData.get("price");
 
-        var userName = $("input#name").val();
+        var userName = formData.get("name");
         
         var days = (checkOut.getTime() - checkIn.getTime()) / (24 * 3600 * 1000);
 
-        alert("Hello " + userName + "Your Booking reservation is confirmed. The total amount ypu will pay is: " + days * price);
+        alert("Hello " + userName + " your Booking reservation is confirmed. The total amount you will pay is: " + days * price);
 
     });
 }
 $("button#full").click(function() {
     $(".form-book").hide();
-    $(".form-book-2").hide();
+    //$(".form-book-2").hide();
     $(".form-book-3").hide();
     $(".form-book-4").hide();
     $(".form-book-5").hide();
