@@ -43,12 +43,19 @@ body{
   float: right;
 }
 .des{
-  margin-top: 5%;
   font-family: serif;
+  margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
 }
-.des h2{
-  text-decoration: solid teal 4px;
+.des p{
+  margin-top: 2%;
 }
+.premise{
+  margin-top: 5%;
+}
+
 
 /*.navbar{
   width: 100%;
