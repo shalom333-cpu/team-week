@@ -105,7 +105,12 @@ for (let i = 0; i < forms.length; i++) {
         
         var days = (checkOut.getTime() - checkIn.getTime()) / (24 * 3600 * 1000);
 
-        alert("Hello " + userName + " your Booking reservation is confirmed. The total amount you will pay is: " + days * price);
+        var myModal = new bootstrap.Modal(document.getElementById('modal'), {backdrop: true});
+
+        
+        $("#modal-body").html("Hello " + userName + " your Booking reservation is confirmed. The total amount you will pay is Ksh. " + days * price);
+        $("#modalLabel").html("Booking confirmed");
+        myModal.show();
 
     });
 }
