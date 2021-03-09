@@ -39,12 +39,29 @@
 .description-8, 
 .description-9,
 .description-10,
-.form-book{
+.form-book,
+.form-book-2,
+.form-book-3, 
+.form-book-4, 
+.form-book-5, 
+.form-book-6, 
+.form-book-7, 
+.form-book-8, 
+.form-book-9, 
+.form-book-10{
     display: none;
 }
 
 .form-book,
-.form-book-2{
+.form-book-2,
+.form-book-3, 
+.form-book-4, 
+.form-book-5, 
+.form-book-6, 
+.form-book-7, 
+.form-book-8, 
+.form-book-9, 
+.form-book-10{
     background-color: #abe4f0;
     padding: 10px;
 }

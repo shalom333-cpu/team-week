@@ -38,27 +38,62 @@ $("#hotel-10").click(function() {
     $(".description-10").toggle("slow");
 });
 
+//Booking Form
 
 $("button#book-now").click(function() {
     $(".description").hide();
-    $(".description-2").hide();
-    $(".description-3").hide();
-    $(".description-4").hide();
-    $(".description-5").hide();
-    $(".description-6").hide();
-    $(".description-7").hide();
-    $(".description-8").hide();
-    $(".description-9").hide();
-    $(".description-10").hide();
     $(".form-book").show();
-    
+});
+
+$("button#book-now-2").click(function() {
+    $(".description-2").hide();
+    $(".form-book-2").show();
+});
+
+$("button#book-now-3").click(function() {
+    $(".description-3").hide();
+    $(".form-book-3").show();
+});
+
+$("button#book-now-4").click(function() {
+    $(".description-4").hide();
+    $(".form-book-4").show();
+});
+
+$("button#book-now-5").click(function() {
+    $(".description-5").hide();
+    $(".form-book-5").show();
+});
+
+$("button#book-now-6").click(function() {
+    $(".description-6").hide();
+    $(".form-book-6").show();
+});
+
+$("button#book-now-7").click(function() {
+    $(".description-7").hide();
+    $(".form-book-7").show();
+});
+
+$("button#book-now-8").click(function() {
+    $(".description-8").hide();
+    $(".form-book-8").show();
+});
+
+$("button#book-now-9").click(function() {
+    $(".description-9").hide();
+    $(".form-book-9").show();
+});
+
+$("button#book-now-10").click(function() {
+    $(".description-10").hide();
+    $(".form-book-10").show();
 });
 
 
-
-const forms = document.getElementsByClassName("book-form"); //gets a list of elements with the class name
-for (let i = 0; i < forms.length; i++) { //for loop - loops through the list
-    const form = forms.item(i); // gets form from the list
+const forms = document.getElementsByClassName("book-form"); 
+for (let i = 0; i < forms.length; i++) { 
+    const form = forms.item(i);
     form.addEventListener("submit",(e) => {
         e.preventDefault(); 
         const formData = new FormData(e.target); 
@@ -76,4 +111,13 @@ for (let i = 0; i < forms.length; i++) { //for loop - loops through the list
 }
 $("button#full").click(function() {
     $(".form-book").hide();
+    $(".form-book-2").hide();
+    $(".form-book-3").hide();
+    $(".form-book-4").hide();
+    $(".form-book-5").hide();
+    $(".form-book-6").hide();
+    $(".form-book-7").hide();
+    $(".form-book-8").hide();
+    $(".form-book-9").hide();
+    $(".form-book-10").hide();
 });
