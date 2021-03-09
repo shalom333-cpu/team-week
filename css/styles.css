@@ -1,0 +1,18 @@
+.hotel-image img{
+    width: 550px;
+    height: 300px;
+}
+
+#listings h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#listings h3{
+    color: #0088cc;
+}
+
+#listings h3:hover{
+    color: gray;
+    cursor: pointer;
+}
