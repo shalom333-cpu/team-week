@@ -35,7 +35,17 @@ body{
 }
 .des{
   margin-top: 5%;
+  font-family: serif;
 }
+.des h2{
+  text-decoration: solid teal 4px;
+}
+.hl{
+  border-bottom: 4px solid blue;
+  width: 200px;
+  
+}
+
 /*.navbar{
   width: 100%;
   padding: 20px;
