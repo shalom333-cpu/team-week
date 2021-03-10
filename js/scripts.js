@@ -116,7 +116,7 @@ for (let i = 0; i < forms.length; i++) {
 }
 $("button#full").click(function() {
     $(".form-book").hide();
-    //$(".form-book-2").hide();
+    $(".form-book-2").hide();
     $(".form-book-3").hide();
     $(".form-book-4").hide();
     $(".form-book-5").hide();
