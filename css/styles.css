@@ -60,12 +60,16 @@ body{
 .des{
   font-family: serif;
   margin-top: 5%;
+  background-position: center center;
   padding-left: 20%;
   padding-right: 20%;
-  padding-bottom: 20%;
+  padding-bottom: 10%;
 }
 .des p{
   margin-top: 2%;
+}
+.des img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .premise{
   margin-top: 5%;
