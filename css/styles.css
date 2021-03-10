@@ -123,13 +123,16 @@ body{
   width: 800px;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  outline: none;
+  box-sizing: border-box;
 }
 .con .text{
   text-align: center;
   font-size: 35px;
   font-weight: 600;
   background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
-  -webkit-background-clip: text;
+  background-clip: border-box;
+  -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
 }
 .con form{
