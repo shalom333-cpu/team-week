@@ -70,8 +70,13 @@ body{
 .premise{
   margin-top: 5%;
 }
-
-
+.footer{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.507);
+}
+.footer:hover{
+  color: antiquewhite;
+}
 /*.navbar{
   width: 100%;
   padding: 20px;
