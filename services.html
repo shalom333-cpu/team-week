@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>Document</title>
+  <title>Hotel Listings</title>
 </head>
 <body>
   <!--Header section-->
@@ -27,15 +27,551 @@
   
   
   <!--Hotel listings section-->
+  <div id="listings">
+    <h2>HOTEL LISTINGS</h2>
+    <p>Find the perfect hotel from budget hotels to luxury rooms and everything in between</p>
+    <p>Click on the hotel name to review and book</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="hotel-image">
+                <img src="hotels-images/indigo.jpeg" alt="">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h3 id="hotel-1">INDIGO HOTEL</h3>
+            <p class="logo"><i class="fas fa-map-marker-alt"></i> WESTLANDS - NAIROBI</p>
+            <p class="description">Indigo Hotel located in Westlands Nairobi features air-conditioned rooms with satellite flat-screen TV in the Westlands, Nairobi. The property is within 400 m of Exhibition Hall. Free WiFi is available.</p>
+            <p class="description">At the hotel, every room is equipped with a desk. All rooms are equipped with a private bathroom with free toiletries and a hairdryer. Guest rooms include a wardrobe.</p>
+            <p class="description">Guests can choose from the continental, vegetarian and Asian breakfast options served daily at the property.</p>
+            <p class="description"><strong>PRICE:</strong> Ksh. 20000 per night</p>
+            <div class="description">
+              <button class="btn btn-outline-primary" id="book-now">BOOK NOW</button>
+            </div>
+
+            <div class="container">
+              <div class="form-book">
+                <h4>BOOK HERE</h4>
+                <form id="book" class="book-form">
+                  <div>
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="name" required>
+                  </div>
+                <div>
+                  <label for="">Email Address</label>
+                  <input type="email" name="email" id="email">
+                </div>
+                  <div>
+                    <label for="check_in">Check in</label><br>
+                    <input type="date" name="check_in" id="check_in">
+                  </div>
+                  <div>
+                    <label for="check_out">Check Out</label><br>
+                    <input type="date" name="check_out" id="check_out"><br>
+                  </div>
+                  <div class="full">
+                    <label for="">Special Requests</label>
+                    <textarea name="message"></textarea>
+                  </div>
+                  <input type="number" name="price" id="price" value="20000" hidden /> <br>
+                  <div>
+                    <button type="submit" class="full" id="full">BOOK NOW</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-md-6">
+          <div class="hotel-image">
+              <img src="hotels-images/grand-plaza-hotel.jpg" alt="">
+          </div>
+      </div>
+      <div class="col-md-6">
+          <h3 id="hotel-2">GRAND PLAZA</h3>
+          <p class="logo"><i class="fas fa-map-marker-alt"></i> LAVINGTON - NAIROBI</p>
+          <p class="description-2">Located in Lavington, Grand Plaza Hotel offers free WiFi access in all areas. Other facilities offered at the property include a ticket service, a tour desk and luggage storage.</p>
+          <p class="description-2">Featuring city views each room comes with a TV and air conditioning. Rooms are fitted with a shower and private bathroom.</p>
+          <p class="description-2">Guests can enjoy local and international cuisine at the onsite restaurant. A range of drinks is served at the bar.</p>
+          <p class="description-2"><strong>PRICE:</strong> Ksh. 15000 per night</p>
+          <div class="description-2">
+            <button class="btn btn-outline-primary" id="book-now-2">BOOK NOW</button>
+          </div>
+          <div class="container">
+            <div class="form-book-2">
+              <h4>BOOK HERE</h4>
+              <form id="book" class="book-form" name="book-form">
+                <div>
+                  <label for="">Name</label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+              <div>
+                <label for="">Email Address</label>
+                <input type="email" name="email" id="email">
+              </div>
+                <div>
+                  <label for="check_in">Check in</label><br>
+                  <input type="date" name="check_in" id="check_in">
+                </div>
+                <div>
+                  <label for="check_out">Check Out</label><br>
+                  <input type="date" name="check_out" id="check_out"><br>
+                </div>
+                <div class="full">
+                  <label for="">Special Requests</label>
+                  <textarea name="message"></textarea>
+                </div>
+                <input type="number" name="price" id="price" value="15000" hidden /> <br>
+                <div>
+                  <button type="submit" class="full" id="full">BOOK NOW</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-6">
+          <div class="hotel-image">
+              <img src="hotels-images/upper_hills_hotel.jpg" alt="">
+          </div>
+      </div>
+      <div class="col-md-6">
+          <h3 id="hotel-3">UPPER HILLS GRAND HOTEL</h3>
+          <p class="logo"><i class="fas fa-map-marker-alt"></i> UPPER HILL - NAIROBI</p>
+          <p class="description-3">Offering a terrace and views of the city, Upper Hills Grand Hotel is located in the Upper Hills district in Nairobi. Guests can enjoy the on-site restaurant. Free WiFi is offered throughout the property and private parking is available on site.</p>
+          <p class="description-3">Every room comes with a flat-screen TV. The units boast a sitting area and feature a desk and a safe. All rooms come with a private bathroom. Extras include free toiletries and a hairdryer.</p>
+          <p class="description-3">Guests can choose from the continental, full English/Irish, vegan and vegetarian breakfast options available daily at the property.</p>
+          <p class="description-3"><strong>PRICE:</strong> Ksh. 30000 per night</p>
+          <div class="description-3">
+            <button class="btn btn-outline-primary" id="book-now-3">BOOK NOW</button>
+          </div>
+          <div class="container">
+            <div class="form-book-3">
+              <h4>BOOK HERE</h4>
+              <form id="book" class="book-form">
+                <div>
+                  <label for="">Name</label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+              <div>
+                <label for="">Email Address</label>
+                <input type="email" name="email" id="email">
+              </div>
+                <div>
+                  <label for="check_in">Check in</label><br>
+                  <input type="date" name="check_in" id="check_in">
+                </div>
+                <div>
+                  <label for="check_out">Check Out</label><br>
+                  <input type="date" name="check_out" id="check_out"><br>
+                </div>
+                <div class="full">
+                  <label for="">Special Requests</label>
+                  <textarea name="message"></textarea>
+                </div>
+                <input type="number" name="price" id="price" value="30000" hidden /> <br>
+                <div>
+                  <button type="submit" class="full" id="full">BOOK NOW</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+  </div>
+  <hr>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-md-6">
+        <div class="hotel-image">
+            <img src="hotels-images/sheraton_gateaway.jpg" alt="">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <h3 id="hotel-4">SHERATON HOTEL</h3>
+        <p class="logo"><i class="fas fa-map-marker-alt"></i> EASTLEIGH - NAIROBI</p>
+        <p class="description-4">Offering a restaurant and a fitness center, The Sheraton Hotel is a contemporary, modestly-styled building, set up in the classy Kilimani area of Nairobi.</p>
+        <p class="description-4">Each room provides you with cable and satellite TV. Extras include a business center, lounge and an outdoor sitting area and a safety deposit box. You can enjoy city view from the room.</p>
+        <p class="description-4"><strong>PRICE:</strong> Ksh. 25000 per night</p>
+        <div class="description-4">
+          <button class="btn btn-outline-primary" id="book-now-4">BOOK NOW</button>
+        </div>
+        <div class="container">
+          <div class="form-book-4">
+            <h4>BOOK HERE</h4>
+            <form id="book" class="book-form">
+              <div>
+                <label for="">Name</label>
+                <input type="text" name="name" id="name" required>
+              </div>
+            <div>
+              <label for="">Email Address</label>
+              <input type="email" name="email" id="email">
+            </div>
+              <div>
+                <label for="check_in">Check in</label><br>
+                <input type="date" name="check_in" id="check_in">
+              </div>
+              <div>
+                <label for="check_out">Check Out</label><br>
+                <input type="date" name="check_out" id="check_out"><br>
+              </div>
+              <div class="full">
+                <label for="">Special Requests</label>
+                <textarea name="message"></textarea>
+              </div>
+              <input type="number" name="price" id="price" value="25000" hidden /> <br>
+              <div>
+                <button type="submit" class="full" id="full">BOOK NOW</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+</div>
+<hr>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="hotel-image">
+          <img src="hotels-images/westin.jpg" alt="">
+      </div>
+  </div>
+  <div class="col-md-6">
+      <h3 id="hotel-5">THE WESTIN NAIROBI HOTEL AND SPA</h3>
+      <p class="logo"><i class="fas fa-map-marker-alt"></i> WESTLANDS - NAIROBI</p>
+      <p class="description-5">In the very center of Nairobi City, very close to main Monuments, many shop and good restaurant. Very good connexion with train to the airport. Double bed, separate toilet and access only by stairs.</P>
+      <P class="description-5">There is a kitchen but no fridge.</p>
+      <p class="description-5"><strong>PRICE:</strong> Ksh. 10000 per night</p>
+      <div class="description-5">
+        <button class="btn btn-outline-primary" id="book-now-5">BOOK NOW</button>
+      </div>
+      <div class="container">
+        <div class="form-book-5">
+          <h4>BOOK HERE</h4>
+          <form id="book" class="book-form">
+            <div>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+          <div>
+            <label for="">Email Address</label>
+            <input type="email" name="email" id="email">
+          </div>
+            <div>
+              <label for="check_in">Check in</label><br>
+              <input type="date" name="check_in" id="check_in">
+            </div>
+            <div>
+              <label for="check_out">Check Out</label><br>
+              <input type="date" name="check_out" id="check_out"><br>
+            </div>
+            <div class="full">
+              <label for="">Special Requests</label>
+              <textarea name="message"></textarea>
+            </div>
+            <input type="number" name="price" id="price" value="10000" hidden /> <br>
+            <div>
+              <button type="submit" class="full" id="full">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<hr>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="hotel-image">
+          <img src="hotels-images/marriott's_grand_chateau.jpg" alt="">
+      </div>
+  </div>
+  <div class="col-md-6">
+      <h3 id="hotel-6">MARRIOTT'S GRAND CHATEAU</h3>
+      <p class="logo"><i class="fas fa-map-marker-alt"></i> KAREN - NAIROBI</p>
+      <p class="description-6">Fast wifi, easy access to the room without disturbing anyone when entering and exiting the house.- A very comfortable bed: Double bed 180 cm x200 cm- Good heather that can be easily adjusted.- Towels and sheets are included. Guests can freely use the kitchen if they want,simply you make your self home.</p>
+      <p class="description-6"><strong>PRICE:</strong> Ksh. 20000 per night</p>
+      <div class="description-6">
+        <button class="btn btn-outline-primary" id="book-now-6">BOOK NOW</button>
+      </div>
+      <div class="container">
+        <div class="form-book-6">
+          <h4>BOOK HERE</h4>
+          <form id="book" class="book-form">
+            <div>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+          <div>
+            <label for="">Email Address</label>
+            <input type="email" name="email" id="email">
+          </div>
+            <div>
+              <label for="check_in">Check in</label><br>
+              <input type="date" name="check_in" id="check_in">
+            </div>
+            <div>
+              <label for="check_out">Check Out</label><br>
+              <input type="date" name="check_out" id="check_out"><br>
+            </div>
+            <div class="full">
+              <label for="">Special Requests</label>
+              <textarea name="message"></textarea>
+            </div>
+            <input type="number" name="price" id="price" value="20000" hidden /> <br>
+            <div>
+              <button type="submit" class="full" id="full">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<hr>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="hotel-image">
+          <img src="hotels-images/sahara.jpg" alt="">
+      </div>
+  </div>
+  <div class="col-md-6">
+      <h3 id="hotel-7">SAHARA NAIROBI</h3>
+      <p class="logo"><i class="fas fa-map-marker-alt"></i> LANGATA - NAIROBI</p>
+      <p class="description-7">This is a hotel with a landscape view with a separate entrance from the main entrance. The room includes a fully equipped kitchen, washer and dryer, large TV, apple tv and Netflix in the living room and a small tv on bedroom. Closely accessible to public transportation with a bus stop just a few steps away. You also can take a Uber and there is ample street parking.</p>
+      <p class="description-7"><strong>PRICE:</strong> Ksh. 15000 per night</p>
+      <div class="description-7">
+        <button class="btn btn-outline-primary" id="book-now-7">BOOK NOW</button>
+      </div>
+      <div class="container">
+        <div class="form-book-7">
+          <h4>BOOK HERE</h4>
+          <form id="book" class="book-form">
+            <div>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+          <div>
+            <label for="">Email Address</label>
+            <input type="email" name="email" id="email">
+          </div>
+            <div>
+              <label for="check_in">Check in</label><br>
+              <input type="date" name="check_in" id="check_in">
+            </div>
+            <div>
+              <label for="check_out">Check Out</label><br>
+              <input type="date" name="check_out" id="check_out"><br>
+            </div>
+            <div class="full">
+              <label for="">Special Requests</label>
+              <textarea name="message"></textarea>
+            </div>
+            <input type="number" name="price" id="price" value="15000" hidden /> <br>
+            <div>
+              <button type="submit" class="full" id="full">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<hr>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="hotel-image">
+          <img src="hotels-images/sia_park.jpg" alt="">
+      </div>
+  </div>
+  <div class="col-md-6">
+      <h3 id="hotel-8">SIA PARK EXECUTIVE HOTEL</h3>
+      <p class="logo"><i class="fas fa-map-marker-alt"></i>  NGONG - NAIROBI</p>
+      <p class="description-8">Sia Park is located Ngong, this landmark hotel features luxurious rooms and suites. A full-service gym and spa and 3 unique dining experiences are available on site. Sia Park is the only hotel in the city where all 3 cable car lines meet.</p>
+      <p class="description-8"><strong>PRICE:</strong> Ksh. 28000 per night</p>
+      <div class="description-8">
+        <button class="btn btn-outline-primary" id="book-now-8">BOOK NOW</button>
+      </div>
+      <div class="container">
+        <div class="form-book-8">
+          <h4>BOOK HERE</h4>
+          <form id="book" class="book-form">
+            <div>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+          <div>
+            <label for="">Email Address</label>
+            <input type="email" name="email" id="email">
+          </div>
+            <div>
+              <label for="check_in">Check in</label><br>
+              <input type="date" name="check_in" id="check_in">
+            </div>
+            <div>
+              <label for="check_out">Check Out</label><br>
+              <input type="date" name="check_out" id="check_out"><br>
+            </div>
+            <div class="full">
+              <label for="">Special Requests</label>
+              <textarea name="message"></textarea>
+            </div>
+            <input type="number" name="price" id="price" value="28000" hidden /> <br>
+            <div>
+              <button type="submit" class="full" id="full">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<hr>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="hotel-image">
+          <img src="hotels-images/vydra.jpg" alt="">
+      </div>
+  </div>
+  <div class="col-md-6">
+      <h3 id="hotel-9">VYDRA HOTEL AND SPA</h3>
+      <p class="logo"><i class="fas fa-map-marker-alt"></i>  NGONG - NAIROBI</p>
+      <p class="description-9">Located in Ngong, the hotel consists of spacious suites offer separate sleeping and living areas, full kitchens with all necessary dishware, and high ceilings. One and two bedroom suites are available. All rooms include complimentary breakfast and WiFi access.</p>
+      <p class="description-9"><strong>PRICE:</strong> Ksh. 50000 per night</p>
+      <div class="description-9">
+        <button class="btn btn-outline-primary" id="book-now-9">BOOK NOW</button>
+      </div>
+      <div class="container">
+        <div class="form-book-9">
+          <h4>BOOK HERE</h4>
+          <form id="book" class="book-form">
+            <div>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+          <div>
+            <label for="">Email Address</label>
+            <input type="email" name="email" id="email">
+          </div>
+            <div>
+              <label for="check_in">Check in</label><br>
+              <input type="date" name="check_in" id="check_in">
+            </div>
+            <div>
+              <label for="check_out">Check Out</label><br>
+              <input type="date" name="check_out" id="check_out"><br>
+            </div>
+            <div class="full">
+              <label for="">Special Requests</label>
+              <textarea name="message"></textarea>
+            </div>
+            <input type="number" name="price" id="price" value="50000" hidden /> <br>
+            <div>
+              <button type="submit" class="full" id="full">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<hr>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="hotel-image">
+          <img src="hotels-images/flamingo.jpg" alt="">
+      </div>
+  </div>
+  <div class="col-md-6">
+      <h3 id="hotel-10">FLAMINGO HOTEL AND CASINO</h3>
+      <p class="logo"><i class="fas fa-map-marker-alt"></i> KENYATTA AVANUE - NAIROBI</p>
+      <p class="description-10">Set in Kenyatta Avenue, nairobi Flamingo Hotel offers accommodations with a restaurant, private parking, a bar and a shared lounge. Among the facilities at this property are a 24-hour front desk and a shared kitchen, along with free WiFi throughout the property. The accommodations features room service, a concierge service and organizing tours for guests.</p>
+      <p class="description-10"><strong>PRICE:</strong> Ksh. 38000 per night</p>
+      <div class="description-10">
+        <button class="btn btn-outline-primary" id="book-now-10">BOOK NOW</button>
+      </div>
+      <div class="container">
+        <div class="form-book-10">
+          <h4>BOOK HERE</h4>
+          <form id="book" class="book-form">
+            <div>
+              <label for="">Name</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+          <div>
+            <label for="">Email Address</label>
+            <input type="email" name="email" id="email">
+          </div>
+            <div>
+              <label for="check_in">Check in</label><br>
+              <input type="date" name="check_in" id="check_in">
+            </div>
+            <div>
+              <label for="check_out">Check Out</label><br>
+              <input type="date" name="check_out" id="check_out"><br>
+            </div>
+            <div class="full">
+              <label for="">Special Requests</label>
+              <textarea name="message"></textarea>
+            </div>
+            <input type="number" name="price" id="price" value="38000" hidden /> <br>
+            <div>
+              <button type="submit" class="full" id="full">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<br>
+<br>
+    
+   
+</div>
+</div>
   
-  
-  
-  
-  
-  
-  
-  
-  
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Message Received</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!---End of listings section-->
   
   <!--Contact section-->
@@ -46,34 +582,34 @@
       <form action="#">
         <div class="form-row">
           <div class="input-data">
-            <input type="text" required>
+            <input type="text" id="f-name" required>
             <div class="underline">
             </div>
-            <label for="">First Name</label>
+            <label for="f-name">First Name</label>
           </div>
           <div class="input-data">
-            <input type="text" required>
+            <input type="text" id="l-name" required>
             <div class="underline">
             </div>
-            <label for="">Last Name</label>
+            <label for="l-name">Last Name</label>
           </div>
         </div>
         <div class="form-row">
           <div class="input-data">
-            <input type="email  " required>
+            <input type="text" id="email" required>
             <div class="underline">
             </div>
-            <label for="">Email Address</label>
+            <label for="email">Email Address</label>
           </div>
         </div>
         <div class="form-row">
           <div class="input-data textarea">
 
-            <textarea rows="8" cols="80" required></textarea>
+            <textarea rows="8" cols="80" id="message" required></textarea>
             <br />
             <div class="underline">
             </div>
-            <label for="">Write your message</label>
+            <label for="message">Write your message</label>
 
 
             <br/>
@@ -92,10 +628,13 @@
   
   
   <!--footer-->
-  
-  
+  <footer class="footer">
+    <p>©Copyright Laguna Resort-2021</p>
+  </footer>
   <!---End of footer section-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/all.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
