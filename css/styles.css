@@ -97,3 +97,10 @@ form#book button:focus {
     outline: 0;
     transition: background-color 2s ease-out;
 }
+.footer{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.507);
+}
+.footer:hover{
+  color: bisque;
+}
