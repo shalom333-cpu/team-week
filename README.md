@@ -1,6 +1,6 @@
 # Laguna Hotel Listings
 #### {Brief description of application}, 11/03/2021
-#### By **Shalom Ebera, Derrick Nyongesa, Kiam Anais**
+#### By **Shalom Eberia, Derrick Nyongesa, Kiam Anais**
 ## Description
 The Laguna Hotel Listings website showcases a number of hotels for users to browse. The hotels ranging from luxurious ones to affordable ones. And to make sure you get all answers you need, contact us through the contact section.
 ## Requirements
@@ -16,5 +16,5 @@ Contact us using the email below;
 - kiamanais@gmail.com
 ### License
 *MIT License*
-Copyright (c) 2021 **Shalom Ebera, Derrick Nyongesa, Kiam Anais**
+Copyright (c) 2021 **Shalom Eberia, Derrick Nyongesa, Kiam Anais**
   
