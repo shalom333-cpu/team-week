@@ -1,6 +1,6 @@
 # Laguna Hotel Listings
 #### {Brief description of application}, 11/03/2021
-#### By **Shalom Eberia, Derrick Nyongesa, Kiam Anais, Alvin Awuor, Ian Mwenda**
+#### By **Shalom Eberia, Derrick Nyongesa, Alvin Awuor, Ian Mwenda**
 ## Description
 The Laguna Hotel Listings website showcases a number of hotels for users to browse. The hotels ranging from luxurious ones to affordable ones. And to make sure you get all answers you need, contact us through the contact section.
 ## Requirements
@@ -13,8 +13,8 @@ None known.
 - Javascript
 ## Support and contact details
 Contact us using the email below;
-- kiamanais@gmail.com
+- 
 ### License
 *MIT License*
-Copyright (c) 2021 **Shalom Eberia, Derrick Nyongesa, Kiam Anais, Alvin Awuor, Ian Mwenda**
+Copyright (c) 2021 **Shalom Eberia, Derrick Nyongesa, Alvin Awuor, Ian Mwenda**
   
